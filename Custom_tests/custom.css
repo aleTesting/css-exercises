@@ -1,0 +1,23 @@
+.box {
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 4em;
+  border: 5px solid red;
+  padding-top: 0px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container {
+  border: 5px solid blue;
+  border-style: dotted;
+  /* margin: 40px;
+   */
+  margin-right: 2;
+}
+
+.box {
+  border: 5px solid red;
+}
