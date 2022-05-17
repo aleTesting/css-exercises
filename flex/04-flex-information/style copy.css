@@ -1,6 +1,5 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  text-align: center;
 }
 
 img {
@@ -11,23 +10,32 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  margin-bottom: 32px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid blue; */
+  gap: 32px;
 }
 
 .flexContent {
   display: flex;
+  /* flex-direction: column; */
+  /* border: 1px solid orange; */
   justify-content: center;
   gap: 52px;
 }
-/* .flexPlant {
+.flexPlant {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-basis: 200px;
   flex-wrap: wrap;
-} */
-.flexPlant {
-  max-width: 200px;
+  text-align: center;
+  /* column-gap: 20px; */
+  /* border: 1px solid red; */
 }
 
 /* do not edit this footer */

@@ -16,7 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px 16px;
+  padding: 13px;
 }
 
 input {
@@ -30,6 +30,8 @@ input {
 body {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 a {
@@ -41,27 +43,23 @@ ul {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  display: flex;
-  /* justify-content: space-between; */
-  gap: 16px;
-  /* margin: 12px; */
 }
 
 .footer,
 .header {
-  /* flex-grow: 1; */
   display: flex;
   justify-content: space-between;
-  padding: 16px;
-  /* flex: 1; */
   /* justify-items: stretch; */
   /* align-content: space-between; */
   /* flex: ; */
 }
-
+.links {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 16px;
+  margin: 12px;
+}
 .content {
-  /* flex: 1; */
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
